@@ -70,5 +70,14 @@ namespace Qlks
         {
             this.Close();
         }
+
+        private void cb_lp_SelectedIndexChanged(object sender, EventArgs e)
+        {
+               bt_capnhat.Enabled = false;
+               bt_tinhtien.Enabled = false;
+               dt = cl.loaiphong1(0);
+               cb_lp.DataSource = dt;
+               cb_lp.DisplayMember = "LoaiPhong";
+          }
     }
 }

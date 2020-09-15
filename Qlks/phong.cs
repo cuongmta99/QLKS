@@ -199,5 +199,11 @@ namespace Qlks
             bt_capnhat.Enabled = false;
             bt_tinhtien.Enabled = false;
         }
+
+        private void txt_songuoidp_TextChanged(object sender, EventArgs e)
+        {
+               bt_capnhat.Enabled = false;
+               bt_tinhtien.Enabled = false;
+          }
     }
 }
