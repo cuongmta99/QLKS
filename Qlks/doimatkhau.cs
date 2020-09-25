@@ -90,5 +90,13 @@ namespace Qlks
         {
 
         }
+
+        private void txt_mkc_TextChanged(object sender, EventArgs e)
+        {
+               lb_tk.Text = taikhoan;
+               txt_mkm.Clear();
+               txt_mkc.Clear();
+               txt_nl.Clear();
+          }
     }
 }

@@ -28,28 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            //this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            //this.SuspendLayout();
-            //// 
-            //// reportViewer1
-            //// 
-            //this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Top;
-            //this.reportViewer1.Location = new System.Drawing.Point(0, 0);
-            //this.reportViewer1.Name = "reportViewer1";
-            //this.reportViewer1.Size = new System.Drawing.Size(326, 581);
-            //this.reportViewer1.TabIndex = 0;
-            //this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);
-            //// 
-            //// inhoadon
-            //// 
-            //this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            //this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            //this.ClientSize = new System.Drawing.Size(326, 579);
-            //this.Controls.Add(this.reportViewer1);
-            //this.Name = "inhoadon";
-            //this.Text = "inhoadon";
-            //this.Load += new System.EventHandler(this.inhoadon_Load);
-            //this.ResumeLayout(false);
+               this.SuspendLayout();
+               // 
+               // inhoadon
+               // 
+               this.ClientSize = new System.Drawing.Size(282, 253);
+               this.Name = "inhoadon";
+               this.Load += new System.EventHandler(this.inhoadon_Load_1);
+               this.ResumeLayout(false);
 
         }
 

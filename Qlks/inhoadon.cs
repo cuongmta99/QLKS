@@ -36,5 +36,9 @@ namespace Qlks
             ////reportViewer1.LocalReport.DataSources.Add(newDataSource);
             //reportViewer1.RefreshReport();
         }
+
+        private void inhoadon_Load_1(object sender, EventArgs e)
+        {
+          }
     }
 }
