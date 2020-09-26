@@ -69,6 +69,11 @@ namespace Qlks
             }
             
         }
+	
+	public void TimKiem(int maKH)
+	{
+		
+	}
 
         private void bt_ct_Click(object sender, EventArgs e)
         {
