@@ -19,7 +19,7 @@ namespace Qlks
         }
         CauLenh cl = new CauLenh();
         DataTable dt = new DataTable();
-        public static int makh;
+        public static int  makh;
         private void inhoadon_Load(object sender, EventArgs e)
         {
 
