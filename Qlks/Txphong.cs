@@ -52,6 +52,11 @@ namespace Qlks
             }
             
         }
+
+
+
+
+
         private void Txphong_Load(object sender, EventArgs e)
         {
             load();
