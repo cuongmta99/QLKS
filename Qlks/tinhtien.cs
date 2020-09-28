@@ -37,7 +37,7 @@ namespace Qlks
                 while (dr.Read())
                 {
                     //lb_tt.Text = dr.GetString(1);
-                    if (dr.GetString(1) == "Trống")
+                    if (dr.GetString(1) ==  "Trống")
                     {
 
 
