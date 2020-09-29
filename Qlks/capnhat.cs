@@ -80,7 +80,7 @@ namespace Qlks
             dt = cl.capnhatchiphi(maphong, Convert.ToInt32(txt_dc.Text), txt_dv.Text, Convert.ToInt32(txt_gia.Text));
             dt.Clear();
             dt = cl.Capnhattongtien(maphong, Convert.ToInt32(lb_tt.Text));
-            MessageBox.Show("Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show("Thành Công!! ^_^", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             form_load();
         }
         private void bt_lu_Click(object sender, EventArgs e)
