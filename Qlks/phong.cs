@@ -44,7 +44,7 @@ namespace Qlks
                 //lb_tt.Text = dr.GetString(1);
                 if (dr.GetString(1) == "Trống")
                 {
-                    rd_t.Checked = true;
+                     rd_t.Checked = true;
                     rd_kt.Checked = false;
                     txt_ten.Text = "";
                     txt_namsinh.Text = "";
