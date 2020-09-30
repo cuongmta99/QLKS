@@ -17,12 +17,20 @@ namespace Qlks
         {
             InitializeComponent();
         }
+
+        public void Reset()
+        {
+            txt_sdt.Text = "";
+            txt_ten.Text = "";
+        
+        }
         public static int mp;
         CauLenh cl = new CauLenh();
         DataTable dt = new DataTable();
         SqlDataReader dr;
         private void load()
         {
+            Reset();
             dr = cl.loaddp(mp);
             while(dr.Read())
             {
@@ -41,12 +49,14 @@ namespace Qlks
         }
         private void datphong_Load(object sender, EventArgs e)
         {
+            Reset();
             lb_mp.Text = mp.ToString();
             load();
         }
 
         private void bt_thoat_Click(object sender, EventArgs e)
         {
+            Reset();
             this.Close();
         }
 
