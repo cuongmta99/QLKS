@@ -65,8 +65,7 @@ namespace Qlks
             }
             catch (Exception)
             {
-                
-               
+                    MessageBox.Show("Lỗi rồi, mời bạn thử lại");  
             }
             
         }
@@ -91,5 +90,21 @@ namespace Qlks
         {
             scm = Convert.ToString(dg.CurrentRow.Cells["Socm"].Value);
         }
+          public void timphong()
+          {
+               bt_xoa.Enabled = false;
+               bt_ct.Enabled = false;
+               txt_tk.Text = "";
+               dt = cl.timkhachang(txt_tk.Text);
+               try
+               {
+                    bt_xoa.Enabled = true;
+                    dg.DataSource = dt;
+               }
+               catch (Exception)
+               {
+                    MessageBox.Show("Lỗi rồi nhá.. hí hí");
+               }
+          }
     }
 }

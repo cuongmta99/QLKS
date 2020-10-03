@@ -151,5 +151,11 @@ namespace Qlks
             else
                 txt_gia.Text += "+" + dongia.ToString();
         }
+          public void update()
+          {
+               string chuoi1 = txt_gia.Text;
+               string[] ketqua1 = chuoi1.Split('+');
+               form_load();
+          }
     }
 }
