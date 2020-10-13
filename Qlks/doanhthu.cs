@@ -125,5 +125,21 @@ namespace Qlks
                 load();
             }
         }
+
+        private void txt_n1_TextChanged(object sender, EventArgs e)
+        {
+               txt_mp.Enabled = false;
+               txt_n1.Enabled = false;
+               txt_n2.Enabled = false;
+               txt_t.Enabled = false;
+               dt = cl.doanhthu(0);
+               dg.DataSource = dt;
+               tt = 0;
+               for (int i = 0; i < dg.RowCount; i++)
+               {
+                    tt += Convert.ToDouble(dg.Rows[i].Cells["Tienphong"].Value);
+               }
+               lb_dt.Text = tt.ToString();
+          }
     }
 }

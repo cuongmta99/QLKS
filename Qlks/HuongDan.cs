@@ -61,6 +61,8 @@ namespace Qlks
         private void bt_dung_Click(object sender, EventArgs e)
         {
             
+
+
             if(bt_dung.Text == dapan)
             {
                 timer1.Stop();
