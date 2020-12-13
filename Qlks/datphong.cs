@@ -99,5 +99,17 @@ namespace Qlks
                 }
             }
         }
-    }
+
+          private void dt_ngay_ValueChanged(object sender, EventArgs e)
+          {
+               if (MessageBox.Show("Hủy?", "Chú Ý", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
+               {
+                    dt.Clear();
+                    dt = cl.huydatphong(mp);
+                    txt_ten.Clear();
+                    txt_sdt.Clear();
+
+               }
+          }
+     }
 }

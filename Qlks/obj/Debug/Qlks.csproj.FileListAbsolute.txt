@@ -103,3 +103,28 @@ D:\Thuc tap nhom\Qlks - Copy\Qlks\obj\Debug\Qlks.csproj.GenerateResource.cache
 D:\Thuc tap nhom\Qlks - Copy\Qlks\obj\Debug\Qlks.csproj.CoreCompileInputs.cache
 D:\Thuc tap nhom\Qlks - Copy\Qlks\obj\Debug\Qlks.exe
 D:\Thuc tap nhom\Qlks - Copy\Qlks\obj\Debug\Qlks.pdb
+C:\Users\PC\source\repos\QLKS\Qlks\bin\Debug\Qlks.exe.config
+C:\Users\PC\source\repos\QLKS\Qlks\bin\Debug\Qlks.exe
+C:\Users\PC\source\repos\QLKS\Qlks\bin\Debug\Qlks.pdb
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.capnhat.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.DangNhap.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.danhsachphong.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.datphong.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.dichvu.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.doanhthu.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.doimatkhau.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.HuongDan.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.inhoadon.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.phong.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.qlks.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.Properties.Resources.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.suaphong.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.Thongtin.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.thongtinnv.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.timkh.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.tinhtien.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.Txphong.resources
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.exe
+C:\Users\PC\source\repos\QLKS\Qlks\obj\Debug\Qlks.pdb
